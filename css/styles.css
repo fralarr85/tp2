@@ -1,0 +1,255 @@
+/* Normalización */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+p {
+  margin:0;
+}
+
+.navbar-padding {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#logo {
+  width: 6rem;
+}
+
+header .nav-link {
+  color: gray;
+}
+
+header .nav-link:hover {
+  color: rgb(248, 246, 246);
+}
+
+header .link-principal {
+  color: whitesmoke;
+}
+
+header .link-principal:hover {
+  color: whitesmoke;
+}
+
+#comprarTickets {
+  color: rgb(40, 160, 40);
+}
+
+#comprarTickets:hover {
+  color: rgb(60, 231, 60);
+}
+
+.introduccion {
+  background: rgba(0, 0, 0, .65) url(/img/ba1.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  height: 800px;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.introduccion-content {
+  width: 500px;
+  padding-right: 2%;
+  text-align: justify;
+}
+
+.titulo-introduccion {
+  text-align: right;
+}
+
+.introduccion-botones {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-comprar-tickets {
+  background-color: rgba(40, 167, 68, 255);
+  border: 0;
+}
+
+.oradores {
+  margin-top: 20px;
+}
+
+.tarjetas {
+  border: solid 1px;
+  border-color: rgb(197, 197, 197);
+  padding: 0;
+  margin: 0 20px 30px;
+}
+
+.etiquetas {
+  display:flex;
+  flex-direction: row;
+}
+
+
+.etiqueta-javascript {
+  background-color: orange;
+  font-size: 12px;
+  font-weight:bold;
+  padding-left:5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  text-align:center;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.etiqueta-react {
+  background-color: #379df1;
+  font-size: 12px;
+  font-weight:bold;
+  color:white;
+  padding-left:5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  text-align:center;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.etiqueta-negocios {
+  background-color: gray;
+  font-size: 12px;
+  font-weight:bold;
+  color:white;
+  padding-left:5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  text-align:center;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.etiqueta-startups {
+  background-color: red;
+  font-size: 12px;
+  font-weight:bold;
+  color:white;
+  padding-left:5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  text-align:center;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.viaje-left-column {
+  padding-left: 0;
+  padding-right: 0;
+  border-right: solid 1px white;
+}
+
+#img-viaje {
+  width: 100%;
+  
+}
+
+.viaje-right-column {
+  background-color: rgb(49, 49, 49);
+  color: whitesmoke;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-conoce-mas {
+  margin-top: 15px;
+}
+
+
+#subrayado {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.inscripcion {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.anotate{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.contenedor-inscripcion {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.formulario-inscripcion-input-texts {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 620px;
+  margin: 0 auto;
+  }
+
+.formulario-texto {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.formulario-textarea {
+  margin: 20px 0 0 0 ;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.recordatorio {
+  text-align: left;
+  margin-bottom: 10px;
+  color:gray;
+  font-size: 14px;
+}
+
+
+.boton-enviar {
+  background-color: rgb(150, 201, 62);
+  border: 0;
+  width: 100%;
+}
+
+footer {
+  height: 80px;
+  background-color: rgb(28, 56, 70);
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-item {
+  width:100px;
+  margin:30px;
+}
+
+
+footer .nav-link {
+  color: whitesmoke;
+}
+
+footer .nav-link:hover {
+  color:lightgreen;
+}
+
+
