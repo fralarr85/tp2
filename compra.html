@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shorcut icon" href="/img/codoacodo.png">
+    <title>Codo a Codo - Conf Bs As</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient sticky-top navbar-padding">
+            <div class="container-fluid justify-content-start text-white">
+                <a href="index.html"><img id="logo" src="/img/codoacodo.png" alt="Logo Codo a Codo - Inicio"></a>
+                <h6>Conf Bs As</h6>
+            </div>
+            <div class="container-fluid justify-content-end">
+                <div class="navbar-nav">
+                    <a class="nav-link link-principal" aria-current="page" href="index.html#conferencia">La
+                        conferencia</a>
+                    <a class="nav-link" href="index.html#oradores">Los oradores</a>
+                    <a class="nav-link" href="index.html#lugarYFecha">El lugar y la fecha</a>
+                    <a class="nav-link" href="index.html#convierteteEnOrador">Conviértete en orador</a>
+                    <a id="comprarTickets" class="nav-link" href="#">Comprar tickets</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container text-center justify-content-center">
+
+            <div class="row gap-1 justify-content-center pt-4 pb-1">
+                <div class="perfil border border-1 border-primary">
+                    <p class="fs-4 fw-semibold">Estudiante</p>
+                    <p>Tienen un descuento</p>
+                    <p><b>80%</b></p>
+                    <p class="text-muted">* presentar documentación</p>
+                </div>
+
+                <div class="perfil border border-1 border-info">
+                    <p class="fs-4 fw-semibold">Trainee</p>
+                    <p>Tienen un descuento</p>
+                    <p><b>50%</b></p>
+                    <p class="text-muted">* presentar documentación</p>
+                </div>
+
+                <div class="perfil border border-1 border-warning">
+                    <p class="fs-4 fw-semibold">Junior</p>
+                    <p>Tienen un descuento</p>
+                    <p><b>15%</b></p>
+                    <p class="text-muted">* presentar documentación</p>
+                </div>
+            </div>
+
+            <p>VENTA</p>
+            <h1 class="mb-4">VALOR DE TICKET $200</h1>
+            <form id="form_tickets" method="POST">
+
+                <div class="row justify-content-center mb-4">
+                    <div class="col-3">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required class="form-control">
+                    </div>
+                    <div class="col-3">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required
+                            class="form-control">
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-4">
+                    <div class="col-6">
+                        <input type="email" name="correo" id="correo" placeholder="Correo" required
+                            class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-center mb-4">
+                    <div class="col-3 text-start">
+                        <label for="cantidad" class="form-label">Cantidad</label>
+                        <input type="text" name="cantidad" id="cantidad" placeholder="cantidad" required
+                            class="form-control">
+                    </div>
+                    <div class="col-3 text-start">
+                        <label for="categoria" class="form-label">Categoría</label>
+                        <select class="form-select" name="categoria" id="categoria">
+                            <option value="estudiante">Estudiante</option>
+                            <option value="trainee">Trainee</option>
+                            <option value="junior">Junior</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <p class="alert alert-primary text-start" id="resultado">Total a Pagar: $</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <button type="reset" class="btn btn-success">Borrar</button>
+                    </div>
+                    <div class="col-3">
+                        <button type="sumbmit" class="btn btn-success">Resumen</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg sticky-bottom footer">
+            <div class="navbar-nav">
+                <a class="nav-link footer-item" aria-current="page" href="index.html#">Preguntas frecuentes</a>
+                <a class="nav-link footer-item" href="index.html#">Contáctanos</a>
+                <a class="nav-link footer-item" href="index.html#">Prensa</a>
+                <a class="nav-link footer-item" href="index.html#">Conferencias</a>
+                <a class="nav-link footer-item" href="index.html#">Términos y condiciones</a>
+                <a class="nav-link footer-item" href="index.html#">Privacidad</a>
+                <a class="nav-link footer-item" href="index.html#">Estudiantes</a>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
