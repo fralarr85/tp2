@@ -48,7 +48,7 @@ header .link-principal:hover {
 }
 
 .introduccion {
-  background: rgba(0, 0, 0, .65) url(./img/ba1.jpg);
+  background: rgba(0, 0, 0, .65) url(img/ba1.jpg);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: 50% 70%;
